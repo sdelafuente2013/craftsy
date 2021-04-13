@@ -1,0 +1,205 @@
+/* Estilos Craftsy
+======================= */
+
+/* Globales */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../img/bg-2.png); 
+	font-family: sans-serif, Verdana, Tahoma;
+	color: #444;
+}
+
+/* Container */
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* Menu */
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.main-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+header{
+    display: flex;
+    background-color: sandybrown;
+    width: 1140px;
+	margin-bottom: 20px;
+	z-index: 999;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    background-color: rgb(239, 76, 39);
+    padding: 12px 15px;
+	overflow: hidden;
+}
+.main-nav .menu{
+    display: flex;
+}
+.main-nav .menu-access{
+    display: flex;
+    width: 740px;
+    justify-content: flex-end;
+}
+.logo {
+	margin-right: 30px;
+}
+.main-nav li {
+	margin-right: 30px;
+}
+.main-nav li a:hover{
+	text-decoration: underline;
+}
+
+/* Cuerpo de la pagina */
+main {
+    display: flex;
+	width: 1140px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+	background-color: #fff;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.producto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	margin: 10px 10px 20px 10px;
+	width: 380px;
+}
+.producto img {
+	width: 100%;
+}
+.name {
+	font-size: 20px;
+}
+.more {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: rgba(255, 0, 0, 0.8);
+	padding: 10px 12px;
+    width: 100px;
+}
+.more:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+
+
+/* Left column */
+.left-column{
+    display: flex;
+	flex-direction: column;
+    width: 320px;
+}
+
+.left-column section {
+	margin-bottom: 30px;
+}
+
+.left-column h2 {
+	padding: 10px;
+	margin: 0 0 10px 0;
+	background: #fff;
+	border: 1px solid lightblue;
+}
+
+.tutorials-container,
+.ads-container {
+    background: #fff;
+	border: 1px solid lightblue;
+}
+.tutorial {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+	overflow: hidden;
+	padding: 10px;
+	border-bottom: 1px solid lightblue
+}
+.tutorial img {
+	margin-right: 10px;
+}
+.ads {
+	text-align: center;
+	padding: 10px;
+}
+
+
+/* Formularios
+=============================== */
+
+.form-container {
+	max-width: 350px;
+	margin: 0 auto;
+}
+.form-container h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.field-group {
+	margin-bottom: 20px;
+}
+.access-form {
+	overflow: hidden;
+}
+.access-form label {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.field-group input {
+	width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px 38px 8px 8px;
+}
+.remember-me {
+	text-align: right;
+}
+.remember-me input {
+	width: auto;
+}
+.alert-hide {
+	color: rgb(239, 76, 39);
+	font-size: 14px;
+	margin-top: 5px;
+}
+.access-form button {
+	font-size: 16px;
+    background-color: #3c8dbc;
+    border: 1px solid #3c8dbc;
+    color: #fff;
+    text-transform: capitalize;
+    width: 40%;
+    padding: 8px 14px;
+    border-radius: 10px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
